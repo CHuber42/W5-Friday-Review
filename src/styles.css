@@ -1,7 +1,88 @@
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./assets/planets.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mercury {
+  margin-left: 21vw;
+  margin-top: 54vh;
+  height: 5vh;
+  width: 3vw;
+  border: 3px solid red;
+  opacity: 1;
+}
+
+#venus {
+  margin-left: 25.5vw;
+  margin-top: -5vh;
+  height: 5vh;
+  width: 3vw;
+  border: 3px solid red;
+  opacity: 1;
+}
+
+#earth {
+  margin-left: 31.5vw;
+  margin-top: -5vh;
+  height: 5vh;
+  width: 3vw;
+  border: 3px solid red;
+  opacity: 1;
+}
+
+#mars {
+  margin-left: 37vw;
+  margin-top: -5vh;
+  height: 5vh;
+  width: 3vw;
+  border: 3px solid red;
+  opacity: 1;
+}
+
+#jupiter {
+  margin-left: 42.5vw;
+  margin-top: -16vh;
+  height: 25vh;
+  width: 13vw;
+  border: 3px solid red;
+  opacity: 1;
+}
+
+#saturn {
+  margin-left: 61vw;
+  margin-top: -24vh;
+  height: 25vh;
+  width: 13vw;
+  border: 3px solid red;
+  opacity: 1;
+}
+
+#uranus {
+  margin-left: 77vw;
+  margin-top: -18vh;
+  height: 10vh;
+  width: 5vw;
+  border: 3px solid red;
+  opacity: 1;
+}
+
+#neptune {
+  margin-left: 85vw;
+  margin-top: -10vh;
+  height: 10vh;
+  width: 5vw;
+  border: 3px solid red;
+  opacity: 1;
+}
+
+.clickable {
+  cursor: pointer;
 }
