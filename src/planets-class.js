@@ -31,6 +31,8 @@ export class Planet {
   }
 
   thisPlanetLE(userAge) {
+    this.planetAge = (userAge * this.ratio)
     this.lifeExpectancy = (80 - userAge) / this.ratio;
   }
+  
 }

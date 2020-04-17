@@ -100,5 +100,13 @@ describe ('Planet', () => {
     neptune.thisPlanetLE(40)
     expect(neptune.lifeExpectancy).toEqual(40 / (365/60190));
   })    
+
+  test("Test if 'age on planet' is set correctly (Neptune is test case)", () => {
+    let neptune = new Planet("Neptune")
+    neptune.thisPlanetLE(40)
+    expect(neptune.planetAge).toEqual(40 * (365/60190));
+  })    
+
+  
   
 });
