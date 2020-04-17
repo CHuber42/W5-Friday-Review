@@ -14,11 +14,14 @@ body {
 }
 
 #Mercury {
-  margin-left: 21vw;
+  margin-left: 20.5vw;
   margin-top: 54vh;
   height: 5vh;
   width: 3vw;
   opacity: 1;
+  background-image: url('./assets/mercurygif2.gif');
+  background-position: center;
+  background-size: cover;
 }
 
 #Venus {
@@ -27,14 +30,14 @@ body {
   height: 5vh;
   width: 3vw;
   opacity: 1;
-  background-image: url('./assets/venusgif.gif');
+  background-image: url('./assets/venusgif2.gif');
   background-position: center;
   background-size: cover;
 }
 
 #Earth {
   margin-left: 31.5vw;
-  margin-top: -5vh;
+  margin-top: -5.5vh;
   height: 6.5vh;
   width: 3vw;
   opacity: 1;
@@ -82,7 +85,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 75vw;
-  margin-top: -18vh;
+  margin-top: -20vh;
   height: 10vh;
   width: 8vw;
 }
