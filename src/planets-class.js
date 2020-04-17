@@ -29,4 +29,8 @@ export class Planet {
         break;
     }
   }
+
+  thisPlanetLE(userAge) {
+    this.lifeExpectancy = (80 - userAge) / this.ratio;
+  }
 }
