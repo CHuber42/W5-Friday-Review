@@ -107,12 +107,12 @@ body {
 
 input {
   margin-top: 20vh;
-  margin-left: 44vw;
+  margin-left: 46vw;
   width: 5vw;
 }
 
 #outputAge {
-  margin-left: 50vw;
+  margin-left: 60vw;
   margin-top: -8vh;
   width: 25vw;
   height: 4vh;
@@ -124,7 +124,7 @@ input {
 #outputLE {
   text-align: right;
   margin-top: 5vh;
-  margin-left: 50vw;
+  margin-left: 60vw;
   width: 25vw;
   height: 4vh;
   font-size: 18px;
@@ -133,13 +133,13 @@ input {
 
 #label {
   width: 11vw;
-  margin-left: 33vw;
+  margin-left: 35vw;
   margin-top: -4.5vh;
   font-size: 22px;
 }
 
 #instructions {
   margin-top: -4.2vh;
-  margin-left: 50vw;
+  margin-left: 52vw;
   font-size: 22px;
 }
