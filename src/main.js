@@ -4,15 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import {Planet} from './planets-class.js'
 
-const planets = [new Planet("mercury"), new Planet("venus"), new Planet("earth"),
-                 new Planet("mars"), new Planet("jupiter"), new Planet("saturn"),
-                 new Planet("uranus"), new Planet("neptune")];
+const planets = [new Planet("Mercury"), new Planet("Venus"), new Planet("Earth"),
+                 new Planet("Mars"), new Planet("Jupiter"), new Planet("Saturn"),
+                 new Planet("Uranus"), new Planet("Neptune")];
 
 $(document).ready(function() {
   $(".clickable").click(function() {
     let userAge = 30; //parseInt($("#inputAge").val());
     let planet = planets.find(planet => planet.name == this.id)
     planet.thisPlanetLE(userAge);
-    console.log(planet.planetAge, planet.lifeExpectancy)
+    $("#outputAge").text(`Your age in ${planet.name} years is: ${planet.lifeExpectancy.toFixed(2)}`);
+    $("#outputLE").text(`Your life expectancy in ${planet.name} years is: ${planet.planetAge.toFixed(2)}`);
   });
 });

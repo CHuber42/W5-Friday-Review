@@ -3,28 +3,28 @@ export class Planet {
     this.name = name;
     
     switch (name) {
-      case "mercury":
+      case "Mercury":
         this.ratio = (365/88);
         break;
-      case "venus":
+      case "Venus":
         this.ratio = (365/224.7);
         break; 
-      case "earth":
+      case "Earth":
         this.ratio = 1;
         break;
-      case "mars":
+      case "Mars":
         this.ratio = (365/687);
         break;
-      case "jupiter":
+      case "Jupiter":
         this.ratio = (365/4333);
         break;
-      case "saturn":
+      case "Saturn":
         this.ratio = (365/10755);
         break;  
-      case "uranus":
+      case "Uranus":
         this.ratio = (365/30687);
         break;
-      case "neptune":
+      case "Neptune":
         this.ratio = (365/60190);
         break;
     }
@@ -32,7 +32,7 @@ export class Planet {
 
   thisPlanetLE(userAge) {
     this.planetAge = (userAge * this.ratio)
-    this.lifeExpectancy = (80 - userAge) / this.ratio;
+    this.lifeExpectancy = (80 - userAge) * this.ratio;
   }
   
 }
