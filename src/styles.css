@@ -3,6 +3,16 @@ html {
   width: 100vw;
 }
 
+.container {
+  height: 100vh;
+  width: 70vw;
+  margin-top: 0vh;
+  margin-left: 30vw;
+  background-image: url('./assets/shootingstar2.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -15,7 +25,7 @@ body {
 
 #Mercury {
   margin-left: 20.5vw;
-  margin-top: 54vh;
+  margin-top: -45vh;
   height: 5vh;
   width: 3vw;
   opacity: 1;
@@ -36,7 +46,7 @@ body {
 }
 
 #Earth {
-  margin-left: 31.5vw;
+  margin-left: 31vw;
   margin-top: -5.5vh;
   height: 6.5vh;
   width: 3vw;
@@ -47,7 +57,7 @@ body {
 }
 
 #Mars {
-  margin-left: 37vw;
+  margin-left: 36.5vw;
   margin-top: -6vh;
   height: 6vh;
   width: 3vw;
@@ -63,14 +73,14 @@ body {
   height: 27vh;
   width: 13vw;
   opacity: 1;
-  background-image: url('./assets/jupitergif.gif');
+  background-image: url('./assets/jupiter2.gif');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #Saturn {
-  background-image: url('./assets/saturngif.gif');
+  background-image: url('./assets/saturn4.gif');
   background-size: cover;
   background-position: center;
   margin-left: 58vw;
