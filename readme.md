@@ -17,6 +17,12 @@
 
 ##### Development specs:
 
+** Spec 1: Should take in an age from user**
+** Spec 2: establish life expectancy as 80 - age, and attach to a variable**
+** Spec 3: Instantiate 8 "planet" objects from class planet **
+** Spec 4: Planet class should have constructor that sets a solar year ratio; ex: Mercery is 88/365 **
+** Spec 5: Add method to planet class that divides input L.E. by planet's ratio **
+** Spec 6: Return new L.E. to screen as a result in some way **
 
 
 ##### _Contact_:
