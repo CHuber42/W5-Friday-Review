@@ -10,10 +10,14 @@ const planets = [new Planet("Mercury"), new Planet("Venus"), new Planet("Earth")
 
 $(document).ready(function() {
   $(".clickable").click(function() {
-    let userAge = 30; //parseInt($("#inputAge").val());
+    let userAge = parseInt($("#inputAge").val());
     let planet = planets.find(planet => planet.name == this.id)
     planet.thisPlanetLE(userAge);
-    $("#outputAge").text(`Your age in ${planet.name} years is: ${planet.lifeExpectancy.toFixed(2)}`);
-    $("#outputLE").text(`Your life expectancy in ${planet.name} years is: ${planet.planetAge.toFixed(2)}`);
+    $("#outputAge").text(`Your age in ${planet.name} years is: ${planet.planetAge.toFixed(2)}`);
+    $("#outputLE").text(`Your life expectancy in ${planet.name} years is: ${planet.lifeExpectancy.toFixed(2)}`);
+    $("#outputAge").show();
+    $("#outputLE").show();
+    $("#instructions").hide();
+    $("#label").hide();
   });
 });
