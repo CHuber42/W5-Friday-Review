@@ -27,51 +27,75 @@ body {
   height: 5vh;
   width: 3vw;
   opacity: 1;
+  background-image: url('./assets/venusgif.gif');
+  background-position: center;
+  background-size: cover;
 }
 
 #Earth {
   margin-left: 31.5vw;
   margin-top: -5vh;
-  height: 5vh;
+  height: 6.5vh;
   width: 3vw;
   opacity: 1;
+  background-image: url('./assets/earthgif.gif');
+  background-position: center;
+  background-size: cover;
 }
 
 #Mars {
   margin-left: 37vw;
-  margin-top: -5vh;
-  height: 5vh;
+  margin-top: -6vh;
+  height: 6vh;
   width: 3vw;
   opacity: 1;
+  background-image: url('./assets/marsgif.gif');
+  background-position: center;
+  background-size: cover;
 }
 
 #Jupiter {
   margin-left: 42.5vw;
   margin-top: -16vh;
-  height: 25vh;
+  height: 27vh;
   width: 13vw;
   opacity: 1;
+  background-image: url('./assets/jupitergif.gif');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #Saturn {
-  margin-left: 61vw;
-  margin-top: -24vh;
-  height: 25vh;
-  width: 13vw;
+  background-image: url('./assets/saturngif.gif');
+  background-size: cover;
+  background-position: center;
+  margin-left: 58vw;
+  margin-top: -28vh;
+  height: 28vh;
+  width: 18vw;
 }
 
 #Uranus {
-  margin-left: 77vw;
+  background-image: url(./assets/uranusgif.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 75vw;
   margin-top: -18vh;
   height: 10vh;
-  width: 5vw;
+  width: 8vw;
 }
 
 #Neptune {
-  margin-left: 85vw;
-  margin-top: -10vh;
-  height: 10vh;
-  width: 5vw;
+  background-image: url('./assets/neptunegif.gif');
+  background-size: 170%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 84vw;
+  margin-top: -12vh;
+  height: 15vh;
+  width: 8vw;
 }
 
 .clickable {
