@@ -13,6 +13,13 @@
          
 ##### Components: 
 
+HTML5.0 for display, GIF support necessary to process images. CSS3. 
+Build Dependancies are contained in package.json.
+
+##### Installation: 
+
+Clone or download repository. From root directory, npm install to add dependancies. npm build to compile into dist, or npm start to host/preview.
+
 ##### **Warning: some CSS/Bootstrap clauses may not be supported by IE8 or below!**
 
 ##### Development specs:
