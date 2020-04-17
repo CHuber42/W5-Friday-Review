@@ -3,10 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin'); //new line
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');  // new line
 
-
-  
-
-
 module.exports = {
   entry: './src/main.js',
   output: {
@@ -56,7 +52,8 @@ module.exports = {
       {
         test:/\.html$/,
         use: ['html-loader']
-      }
+      },
+      
     ]
   }
 };

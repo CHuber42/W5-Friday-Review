@@ -23,6 +23,9 @@
 ** Spec 4: Planet class should have constructor that sets a solar year ratio; ex: Mercery is 88/365 **
 ** Spec 5: Add method to planet class that divides input L.E. by planet's ratio **
 ** Spec 6: Return new L.E. to screen as a result in some way **
+** Spec 7: Include in L.E. Method: attr. set for age on this planet **
+** Spec 8: add UI **
+
 
 
 ##### _Contact_:
